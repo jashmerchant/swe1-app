@@ -1,7 +1,5 @@
 from statistics import mode
-from tkinter.messagebox import QUESTION
 from django.db import models
-from pandas import option_context
 
 # Create your models here.
 
