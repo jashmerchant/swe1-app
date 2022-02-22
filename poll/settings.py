@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-ffae$s0&yfl3j7fyt3y^z(hvv9gj$me&u%-eb5d0+u)4vdjyaw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['jash-polls.herokuapp.com/', '127.0.0.1']
+ALLOWED_HOSTS = ['jash-polls.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
