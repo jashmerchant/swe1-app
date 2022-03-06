@@ -1,4 +1,3 @@
-from statistics import mode
 from django.db import models
 
 # Create your models here.
@@ -12,6 +11,3 @@ class Poll(models.Model):
     option_one_count = models.IntegerField(default=0)
     option_two_count = models.IntegerField(default=0)
     option_three_count = models.IntegerField(default=0)
-
-    def __str__(self):
-        return f"{self.question}: {self.option_one}, {self.option_two} or {self.option_three}?"
